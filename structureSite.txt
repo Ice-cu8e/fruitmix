@@ -1,0 +1,115 @@
+Structure du dossier pour le volume Windows
+Le num�ro de s�rie du volume est 0000003A 5AB4:1DE2
+C:.
+|   admin.php
+|   admin_cat_produit.php
+|   admin_produit.php
+|   contact.php
+|   index.php
+|   produit.php
+|   cocktail.php
+|   societe.php
+|   structureSite.txt
+|   
++---class
+|       .php_cs.cache
+|       admin_cat_produit.class.php
+|       admin_produit.class.php
+|       autoload.php
+|       page_base.class.php
+|       page_produit.class.php
+|       page_secur.class.php
+|       
++---css
+|       administration.css
+|       barre_verticale.css
+|       bouton.css
+|       entete.css
+|       liste.css
+|       principal.css
+|       
++---img
+|   |   bouton.png
+|   |   bouton_hover.png
+|   |   cocktail 2.jpg
+|   |   cocktail.jpg
+|   |   contenu - Copie.jpg
+|   |   contenu.jpg
+|   |   corps.jpg
+|   |   coupe.png
+|   |   coupe1.png
+|   |   coupe2.png
+|   |   coupe3.png
+|   |   entete.jpg
+|   |   fond_site.png
+|   |   fruit.png
+|   |   image_02.jpg
+|   |   image_03.jpg
+|   |   image_04.jpg
+|   |   liste.png
+|   |   logo fruitmix.png
+|   |   logo.png
+|   |   panier de fruit.jpg
+|   |   pied.jpg
+|   |   pied.png
+|   |   pied_fruit.png
+|   |   pied_top.jpg
+|   |   produit.jpg
+|   |   cocktail.jpg
+|   |   separateur.png
+|   |   
+|   \---produit
+|           01.jpg
+|           02.jpg
+|           03.jpg
+|           04.jpg
+|           05.jpg
+|           06.jpg
+|           abricot.jpg
+|           amande.jpg
+|           ananas.jpg
+|           bois.jpg
+|           canneberge.jpg
+|           cassis.jpg
+|           cerise.jpg
+|           fraise.jpg
+|           framboise.jpg
+|           goji.jpg
+|           groseille.jpg
+|           kumquat.jpg
+|           litchi.jpg
+|           noix.jpg
+|           orange.jpg
+|           passion.jpg
+|           poire.jpg
+|           pomme.jpg
+|           prune.jpg
+|           
++---inc
+|       connexion.php
+|       ident.php
+|       
++---JS
+|       barre_verticale.js
+|       bootstrap.js
+|       bootstrap.min.js
+|       entete.js
+|       jquery-3.1.1.min.js
+|       npm.js
+|       skrollr.min.js
+|       smoothScroll.js
+|       
+\---vues
+        administration.css
+        affiche_accueil.php
+        affiche_accueil_copie.php
+        affiche_accueil_original.php
+        affiche_barre_verticale.php
+        affiche_conteneur.php
+        affiche_entente_copie.php
+        affiche_entete.php
+        affiche_page.php
+        affiche_pied.php
+        ident.php
+        principal.css
+        

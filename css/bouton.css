@@ -1,0 +1,107 @@
+    body {
+      background-color: #f9f9f9;
+      font-family: Helvetica, sans-serif;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-touch-callout: none;
+    }
+
+    section {
+      padding: 30px 25px;
+    }
+
+    section > * {
+      margin: 10px
+    }
+
+    .lien {
+      text-decoration: none;
+      color: white;
+    }
+
+    .lien_detail {
+      text-decoration: none;
+      color: white;
+      padding-right: 30px;
+    }
+
+    .lien:visited {
+      /* */
+    }
+
+    .lien:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .lien:focus {
+      text-decoration: none;
+      color: white;
+    }
+
+    .lien:active {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* Button */
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 145px;
+      height: 32px;
+      line-height: 16px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      margin-bottom: 20px;
+      color: #646464;
+    }
+
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .button.blue {
+      background-color: #4285f4;
+      color: #fff;
+    }
+
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    /* Misc */
+    .centerDetail {
+      text-align: center;
+      padding-top: 8px;
+      padding-right: 17px;
+      width: 175px;
+    }
+
+    .center {
+      text-align: center;
+      padding-top: 8px;
+      padding-left: 5px;
+      width: 165px;
+    }
+
+
+    .pad_list {
+      padding-top: 200px;
+      padding-left: 400px;
+    }
+
+    paper-ripple {
+      color: #4285f4;
+    }

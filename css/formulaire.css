@@ -1,0 +1,108 @@
+p.titre {
+    background: #4285f4;
+    color: #ffffff;
+    text-align: center;
+    padding: .2em .3em;
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: -1em;
+    width: 130px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+
+fieldset {
+  border:none;
+  margin-bottom:1em;
+  width:24em;
+  padding-top:1.5em;
+}
+
+#coordonnees label {
+  position:absolute;
+  font-size:100%;
+  padding-top:.2em;
+}
+
+#coordonnees input {
+  margin-left:11em;
+  line-height:1.5em;
+  margin-bottom:.2em;
+  border: 1px;
+  background-color: #fff;
+  border-bottom-color: #bdbdbd;
+  border-bottom-style: solid;
+  border-bottom-width: 1.5px;
+}
+
+#connexion label {
+  position:absolute;
+  font-size:100%;
+  padding-top:.2em;
+}
+
+#civilite {
+  font-size:100%;
+}
+
+#civilite input {
+  margin-left:11em;
+}
+
+#civilite input + input {
+  margin-left:1em;
+}
+
+textarea {
+  font:.8em;
+  width:29em;
+  padding:.2em;
+  border: 1px;
+  background-color: #fff;
+  border-bottom-color: #bdbdbd;
+  border-bottom-style: solid;
+  border-bottom-width: 1.5px;
+}
+
+input[type="submit"], input[type="reset"] {
+  background:#4285f4;
+  font-size: 15px;
+  border: #4285f4;
+  border-radius: 2px;
+  color:#ffffff;
+  margin-bottom: -1em;
+  width: 130px;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: .2em .3em;
+}
+
+p#buttons {
+  text-align:;
+}
+
+/* cases a cocher des centres d'interet */
+#interets {
+   font-size:90%;
+}
+#interets input {
+   margin-left:9em;
+}
+#interets input +input {
+   margin-left:1em;
+}
+#interets br+input {
+  margin-left:9em;
+}
+
+
+.champAdmin {
+  line-height:1.5em;
+  margin-bottom:.2em;
+  border: 1px;
+  background-color: #fff;
+  border-bottom-color: #bdbdbd;
+  border-bottom-style: solid;
+  border-bottom-width: 1.5px;
+}
