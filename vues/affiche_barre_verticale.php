@@ -5,11 +5,14 @@
   <div id="Lien_CSS_JS">
   <link rel="stylesheet" type="text/css" href="css/barre_verticale.css">
   <link rel="stylesheet" type="text/css" href="css/principal.css">
+  <link rel="stylesheet" type="text/css" href="css/entete.css">
+  <link rel="stylesheet" type="text/css" href="css/bouton.css">
+  <link rel="stylesheet" type="text/css" href="css/formulaire.css">
 
+  <link rel="import" href="JS/paper-ripple.html">
   <script type="text/javascript" src="JS/barre_verticale.js"></script>
   <script type="text/javascript" src="JS/skrollr.min.js"></script>
   <script type="text/javascript" src="JS/smoothScroll.js"></script>
-  <script type="text/javascript" src="JS/Verification.js"></script>
 </div>
 
 <div id="mySidenav" class="sidenav" data-0=" padding-top: 220px;" data-128="  padding-top: 70px;">

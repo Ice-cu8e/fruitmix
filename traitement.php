@@ -4,8 +4,8 @@ $msg_erreur = "Erreur,  les champs suivants doivent être obligatoirement rempli
 $msg_ok = "Votre  demande a bien été prise en compte.";
 $message_error = $msg_erreur;
 
-define('MAIL_DESTINATAIRE', 'thomas.sohier44@gmail.com');//Mettre l'email voulu
-define('MAIL_SUJET','Message du formulaire de exemple.com');
+define('MAIL_DESTINATAIRE', 'mtournet@fruitmix.com');//Mettre l'email voulu
+define('MAIL_SUJET','exemple@exemple.com');
 
 // vérification des champs
 if (empty($_POST['mail']))

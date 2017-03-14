@@ -1,11 +1,6 @@
 <html>
 <body>
-  <div id="Lien_CSS_JS">
-    <link rel="stylesheet" type="text/css" href="css/entete.css">
-    <link rel="import" href="JS/paper-ripple.html">
-    <link rel="stylesheet" type="text/css" href="CSS/bouton.css">
-  </div>
-
+  
   <div id="page">
     <div id="toolbar" data-0="height:192px" data-128="height: 64px">
       <img src="img/logo fruitmix.png" data-0="position:relative;float:right;padding-top:30px;height:150px;" data-128="position:relative;float:right;padding-top:5px;height:50px;">

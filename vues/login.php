@@ -13,11 +13,11 @@
 				<table>  <!-- le tableau est utilis� dans la mise en forme afin de garantir l'alignement des diff�rents champs de saisie -->
 					<tr>
 						<td>Identifiant : </td>
-						<td><input type='text' name='login' size='40' maxlength='50' class="champAdmin" /></td>
+						<td><input style="margin-left:0" type='text' name='login' size='30' maxlength='50' class="champAdmin" /></td>
 					</tr>
 					<tr>
 						<td>Mot de passe : </td>
-						<td><input type='password' name='mdp' size='40' maxlength='50' class="champAdmin" /></td>
+						<td><input style="margin-left:0" type='password' name='mdp' size='30' maxlength='50' class="champAdmin" /></td>
 					</tr>
 					<tr>
 						<td><input type='submit' name='valid' value='valider' /></td>

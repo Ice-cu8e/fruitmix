@@ -1,238 +1,437 @@
-html, body {
-    background: #fafafa;
-    color: #424242;
-    font-family: Helvetica, sans-serif;
-}
+    html, body {
+        background: #fafafa;
+        color: #424242;
+        font-family: Helvetica, sans-serif;
+    }
 
-#page {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
+    #page {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
 
-/** GERE LES CARTES QUI PERMETTENT DE CONTENIR LE TEXTE **/
+    @media screen and (max-width:1200px) {
+        /* CSS pour les petits écrans */
+        /** GERE LES CARTES QUI PERMETTENT DE CONTENIR LE TEXTE **/
+        #card {
+            padding: 205px 350px 0 0;
+        }
+        #cardProd {
+            width: auto;
+            padding-right: 0;
+        }
+        #cardProdTitre {
+            width: auto;
+            margin-right: 40px;
+            padding: 0px 0px 0px 0px;
+        }
+        #cardCocktail {
+            float: left;
+            width: auto;
+            margin-right: 40px;
+        }
+        #cardContact {
+            width: auto;
+            float: left;
+            padding-top: 210px;
+        }
+        #cardAdmin {
+            width: auto;
+            float: left;
+        }
+        .card {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardProd {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardProdTitre {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardCocktail {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 20px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardContact {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardAdmin {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 20px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        /** GERE TOUT LES TEXTES **/
+        /* Texte utilisé si il apparait en premier afin de ne pas être mangé par l'entête */
+        .texte {
+            display: block;
+            margin: 16px auto;
+            padding-right: 350px;
+            padding-top: 210px;
+        }
+        /* Même forme que le .texte mais avec un padding différent */
+        .texte2 {
+            display: block;
+            margin: 16px auto;
+            padding-right: 350px;
+            padding-top: 30px;
+        }
+        /* Même forme mais utilisé pour la page cocktail afin de se raprocher de la liste */
+        .texte3 {
+            display: block;
+            margin: auto;
+            padding-right: 50px;
+            padding-top: 0;
+        }
+        .image {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            max-width: 100%;
+            height: auto;
+        }
+        .image_left {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            max-width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+        .imageProduits {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            margin-bottom: 70px;
+            margin-top: 20px;
+            margin-right: 20px;
+            float: left;
+            clear: left;
+            max-width: 100%;
+            height: auto;
+        }
+        .imageCocktails {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            float: left;
+            clear: left;
+            max-width: 100%;
+            height: auto;
+        }
+        .marge_bas {
+            margin-bottom: 70px;
+        }
+        /** GERE TOUTES LES IMAGES FIGURE **/
+        /* Gère les images comprises entre les balises <figure> */
+        figure {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            margin: 20px;
+            /* adjust as needed */
+            padding-top: 210px;
+            float: right;
+            clear: right;
+            max-width: 100%;
+            height: auto;
+        }
+        figure img {
+            vertical-align: top;
+        }
+        figure figcaption {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        /* Gère les listes */
+        .liste_categorie {
+            display: inline-block;
+            padding-left: 280px;
+            padding-top: 180px
+        }
+        .liste_categorie_cocktails {
+            display: inline-block;
+            padding-left: 340px;
+            padding-top: 180px
+        }
+        li {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        li.detail {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        li.societe {
+            display: list-item;
+        }
+        .tableauForme {
+            height: 50px;
+            padding-left: 50px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .tableauLigne {
+            border-collapse: collapse;
+            border: 1px solid #bdbdbd;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+    }
 
-#card {
-  float: left;
-  width: 750px;
-  padding: 205px 0px 0px 0px;
-}
-
-#cardProd {
-    float: left;
-    width: auto;
-    margin-right: 40px;
-    padding: 0px 0px 0px 0px;
-}
-
-#cardProdTitre {
-    width: auto;
-    margin-right: 40px;
-    padding: 0px 0px 0px 0px;
-}
-
-#cardCocktail {
-    float: left;
-    width: auto;
-    margin-right: 40px;
-}
-
-#cardContact {
-    width: auto;
-    margin-right: 400px;
-    padding-top: 210px;
-}
-
-.card {
-    display: block;
-    background-color: #fff;
-    margin: 25px 10px 25px 20px;
-    padding: 10px 10px 10px 20px;
-    transition: box-shadow 0.15s;
-    height: auto;
-    box-shadow: 0px 3px 10px #bdbdbd;
-    border-radius: 2px;
-}
-
-.cardProd {
-    display: block;
-    background-color: #fff;
-    margin: 25px 10px 25px 20px;
-    padding: 10px 10px 10px 20px;
-    transition: box-shadow 0.15s;
-    height: auto;
-    box-shadow: 0px 3px 10px #bdbdbd;
-    border-radius: 2px;
-}
-
-.cardProdTitre {
-    display: block;
-    background-color: #fff;
-    margin: 25px 10px 25px 20px;
-    padding: 10px 10px 10px 20px;
-    transition: box-shadow 0.15s;
-    height: auto;
-    box-shadow: 0px 3px 10px #bdbdbd;
-    border-radius: 2px;
-}
-
-.cardCocktail {
-    display: block;
-    background-color: #fff;
-    margin: 25px 10px 25px 20px;
-    padding: 10px 10px 10px 20px;
-    transition: box-shadow 0.15s;
-    height: auto;
-    box-shadow: 0px 3px 10px #bdbdbd;
-    border-radius: 2px;
-}
-
-.cardContact {
-    display: block;
-    background-color: #fff;
-    margin: 25px 10px 25px 20px;
-    padding: 10px 10px 10px 20px;
-    transition: box-shadow 0.15s;
-    height: auto;
-    box-shadow: 0px 3px 10px #bdbdbd;
-    border-radius: 2px;
-}
-
-
-/** GERE TOUT LES TEXTES **/
-
-
-/* Texte utilisé si il apparait en premier afin de ne pas être mangé par l'entête */
-
-.texte {
-    display: block;
-    margin: 16px auto;
-    padding-right: 350px;
-    padding-top: 210px;
-}
-
-
-/* Même forme que le .texte mais avec un padding différent */
-
-.texte2 {
-    display: block;
-    margin: 16px auto;
-    padding-right: 350px;
-    padding-top: 30px;
-}
-
-
-/* Même forme mais utilisé pour la page cocktail afin de se raprocher de la liste */
-
-.texte3 {
-    display: block;
-    margin: auto;
-    padding-right: 50px;
-    padding-top: 0px;
-}
-
-.image {
-    position: relative;
-    box-shadow: 3px 3px 10px #bdbdbd;
-    max-width: 100%;
-    height: auto;
-}
-
-.image_left {
-  position: relative;
-  box-shadow: 3px 3px 10px #bdbdbd;
-  max-width: 100%;
-  height: auto;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 30px;
-}
-
-.imageProduits {
-    position: relative;
-    box-shadow: 3px 3px 10px #bdbdbd;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    margin-right: 20px;
-    float: left;
-    clear: left;
-    max-width: 100%;
-    height: auto;
-}
-
-.imageCocktails {
-    position: relative;
-    box-shadow: 3px 3px 10px #bdbdbd;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    float: left;
-    clear: left;
-    max-width: 100%;
-    height: auto;
-}
-
-.marge_bas {
-  margin-bottom: 70px;
-}
-
-/** GERE TOUTES LES IMAGES FIGURE **/
-
-
-/* Gère les images comprises entre les balises <figure> */
-
-figure {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    margin: 20px;
-    /* adjust as needed */
-    padding-top: 210px;
-    float: right;
-    clear: right;
-    max-width: 100%
-    height: auto;
-}
-
-figure img {
-    vertical-align: top;
-}
-
-figure figcaption {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-/* Gère les listes */
-
-.liste_categorie {
-    display: inline-block;
-    padding-left: 280px;
-    padding-top: 180px
-}
-
-.liste_categorie_cocktails {
-    display: inline-block;
-    padding-left: 340px;
-    padding-top: 180px
-}
-
-li {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 0px;
-    padding-right: 30px;
-}
-
-li.detail {
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 0px;
-  padding-right: 30px;
-}
-
-li.societe {
-  display: list-item;
-}
+    @media screen and (min-width:1200px) {
+        /* CSS pour les grands écrans */
+        /** GERE LES CARTES QUI PERMETTENT DE CONTENIR LE TEXTE **/
+        #card {
+            padding: 205px 350px 0 0;
+        }
+        #cardProd {
+            width: auto;
+            padding-right: 250px;
+        }
+        #cardProdTitre {
+            width: auto;
+            margin-right: 40px;
+            padding: 0px 0px 0px 0px;
+        }
+        #cardCocktail {
+            float: left;
+            width: auto;
+            margin-right: 40px;
+        }
+        #cardContact {
+            width: auto;
+            float: left;
+            padding-top: 210px;
+        }
+        #cardAdmin {
+            width: auto;
+            float: left;
+        }
+        .card {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardProd {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardProdTitre {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardCocktail {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 20px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardContact {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 10px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        .cardAdmin {
+            display: block;
+            background-color: #fff;
+            margin: 25px 10px 25px 20px;
+            padding: 10px 20px 10px 20px;
+            transition: box-shadow 0.15s;
+            height: auto;
+            box-shadow: 0 3px 10px #bdbdbd;
+            border-radius: 2px;
+        }
+        /** GERE TOUT LES TEXTES **/
+        /* Texte utilisé si il apparait en premier afin de ne pas être mangé par l'entête */
+        .texte {
+            display: block;
+            margin: 16px auto;
+            padding-right: 350px;
+            padding-top: 210px;
+        }
+        /* Même forme que le .texte mais avec un padding différent */
+        .texte2 {
+            display: block;
+            margin: 16px auto;
+            padding-right: 350px;
+            padding-top: 30px;
+        }
+        /* Même forme mais utilisé pour la page cocktail afin de se raprocher de la liste */
+        .texte3 {
+            display: block;
+            margin: auto;
+            padding-right: 50px;
+            padding-top: 0;
+        }
+        .image {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            max-width: 100%;
+            height: auto;
+        }
+        .image_left {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            max-width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+        .imageProduits {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            margin-bottom: 70px;
+            margin-top: 20px;
+            margin-right: 20px;
+            float: left;
+            clear: left;
+            max-width: 100%;
+            height: auto;
+        }
+        .imageCocktails {
+            position: relative;
+            box-shadow: 3px 3px 10px #bdbdbd;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            float: left;
+            clear: left;
+            max-width: 100%;
+            height: auto;
+        }
+        .marge_bas {
+            margin-bottom: 70px;
+        }
+        /** GERE TOUTES LES IMAGES FIGURE **/
+        /* Gère les images comprises entre les balises <figure> */
+        figure {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            margin: 20px;
+            /* adjust as needed */
+            padding-top: 210px;
+            float: right;
+            clear: right;
+            max-width: 100%;
+            height: auto;
+        }
+        figure img {
+            vertical-align: top;
+        }
+        figure figcaption {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        /* Gère les listes */
+        .liste_categorie {
+            display: inline-block;
+            padding-left: 280px;
+            padding-top: 180px
+        }
+        .liste_categorie_cocktails {
+            display: inline-block;
+            padding-left: 340px;
+            padding-top: 180px
+        }
+        li {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        li.detail {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        li.societe {
+            display: list-item;
+        }
+        .tableauForme {
+            height: 50px;
+            padding-left: 50px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .tableauLigne {
+            border-collapse: collapse;
+            border: 1px solid #bdbdbd;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+    }

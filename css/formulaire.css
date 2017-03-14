@@ -25,7 +25,7 @@ fieldset {
   padding-top:.2em;
 }
 
-#coordonnees input {
+input {
   margin-left:11em;
   line-height:1.5em;
   margin-bottom:.2em;
@@ -67,19 +67,16 @@ textarea {
 
 input[type="submit"], input[type="reset"] {
   background:#4285f4;
-  font-size: 15px;
-  border: #4285f4;
-  border-radius: 2px;
+  border-color:#4285f4;
   color:#ffffff;
-  margin-bottom: -1em;
+  margin: 10px 10px 10px 10px;
+  font-size: 15px;
+  border-radius: 2px;
   width: 130px;
-  margin-left: 1em;
-  margin-top: 1em;
-  padding: .2em .3em;
+
 }
 
 p#buttons {
-  text-align:;
 }
 
 /* cases a cocher des centres d'interet */

@@ -7,8 +7,8 @@
   $site->entete();
 	$site->corps = "
     <div id='texte' class='texte3'>
-      <div id='cardCocktail'>
-        <div class='cardCocktail'>
+      <div id='cardProd'>
+        <div class='cardProd'>
       		<h3>Notre société</h3>
       		<p>Créée en 2011, notre société est implantée en plein coeur de Nantes, à proximité du quartier du Bouffay. <br/>
            Nous avons choisi de proposer à notre clientèle des produits simples ou composés à base de fruits.
@@ -19,11 +19,9 @@
           </p>
         </div>
       </div>
-    </div>
 
-		<div class='texte3'>
-      <div id='cardCocktail'>
-        <div class='cardCocktail'>
+      <div id='cardProd'>
+        <div class='cardProd'>
     			<h3>Fruits locaux</h3>
           <p>Notre société privilégie le commerce avec les producteurs de produit locaux et fait partie des soutiens au commerce équitable.</p>
           <h4>Nos 9 engagements :</h4>
@@ -46,11 +44,9 @@
           </div>
         </div>
       </div>
-    </div>
 
-		<div class='texte3'>
-      <div id='cardCocktail'>
-        <div class='cardCocktail'>
+      <div id='cardProd'>
+        <div class='cardProd'>
 			     <h3>Fruits importés</h3>
            <p>Concernant les fruits plus exotiques où bien ceux qui ne sont pas disponibles chez nos producteurs locaux nous nous assurons des produits que nous importons aussi bien la qualité des fruits que la qualité de transport pour venir jusqu'à notre société.</p>
   		  </div>
